@@ -14,12 +14,13 @@
     <tbody>';
     while($pregunta = mysqli_fetch_assoc($query)){
         echo'<tr>
-        <th scope = "row">'.$pregunta['id'].'</th>
-        <td>'.$pregunta['pregunta'].'</td
-        <td>'.$pregunta['imagen'].'</td
+        <th scope="row">'.$pregunta['id'].'</th>
+        <td>'.$pregunta['pregunta'].'</td>
+        <td>'.$pregunta['imagen'].'</td>
         </tr>';
     }
     echo '</tbody></table>';
+    
 
     
 
